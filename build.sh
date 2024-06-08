@@ -8,3 +8,5 @@ cd build
 
 # Run cmake with the parent directory as the source
 cmake ..
+
+make all
