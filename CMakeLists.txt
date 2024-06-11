@@ -4,3 +4,5 @@ project(JenkinsSample)
 
 # Include subdirectories
 add_subdirectory(app1)
+
+add_subdirectory(thirdParty/googletest)

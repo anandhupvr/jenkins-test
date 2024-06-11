@@ -1,5 +1,13 @@
 #!/bin/bash
 
+mkdir -p thirdParty
+
+cd thirdParty
+
+git clone https://github.com/google/googletest.git
+
+cd ../
+
 # Create the build directory
 mkdir -p build
 
