@@ -12,6 +12,7 @@ TEST(sample_test_case, sample_test)
 TEST(AdditionTest, SimpleAddition) {
     EXPECT_EQ(add(3, 4), 7);
     EXPECT_EQ(add(5, 5), 10);
+    EXPECT_EQ(add(5, 5), 6); // force fail
 }
 
 // TEST(AdditionTest, TestFromFile) {
